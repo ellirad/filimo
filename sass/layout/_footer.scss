@@ -1,0 +1,50 @@
+footer {
+  padding: 5rem 20rem 2rem;
+  filter: brightness(115%);
+  position: relative;
+}
+
+.back-to-top {
+  position: absolute;
+  top: -30px;
+  right: 40px;
+
+    @include make-circle(60px);
+  align-items: center;
+  justify-content: center;
+}
+
+.small-logo {
+  width: 165px;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  margin: 3rem 0;
+  padding: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    flex: 0 0 33%;
+    margin-bottom: 3rem;
+  }
+}
+
+.connections {
+  max-width: 25rem;
+}
+
+.social-media {
+  margin-right: 3rem;
+
+  a {
+    background-color: rgba(158, 154, 154, 0.164);
+    display: inline-block;
+    @include make-circle(40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

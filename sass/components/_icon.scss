@@ -1,0 +1,18 @@
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  
+    &--white {
+      fill: $color-white;
+    }
+  
+    &--primary {
+      fill: $color-primary;
+    }
+
+    &--big {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  

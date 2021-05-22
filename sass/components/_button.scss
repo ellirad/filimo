@@ -1,0 +1,41 @@
+.btn {
+  border-radius: 8px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  border: none;
+  color: $color-white;
+  display: inherit;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &__text {
+    padding: 0.5rem 2.6rem;
+  }
+
+  &__submit {
+    padding: 1.2rem 3.6rem;
+  }
+
+  &__icon {
+    padding: 1.5rem 3rem;
+    background-color: transparent;
+  }
+
+  &__round {
+    @include make-circle(34px);
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid $color-white;
+  }
+
+  &--white {
+    background-color: rgba($color-white, 0.2);
+  }
+
+  &--primary {
+    background-color: $color-primary;
+  }
+}

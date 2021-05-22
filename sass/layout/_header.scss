@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 6rem;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.navigation {
+  flex-grow: 1;
+
+  & ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0;
+
+    & li {
+      font-size: 1.5rem;
+      color: $color-white;
+      &:not(:last-child) {
+          padding-right: 6rem;
+      }
+    }
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  @include make-circle(35px);
+  border: .7px solid $color-white;
+}

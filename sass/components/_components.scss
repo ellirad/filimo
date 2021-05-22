@@ -1,0 +1,126 @@
+section {
+    margin-bottom: 9rem !important;
+  }
+  .about-content {
+    display: flex;
+  }
+  .trailer {
+    width: 389px;
+    height: auto;
+    padding-right: 3rem;
+  }
+  
+  .about-table {
+    display: flex;
+    &__title {
+      min-width: 13%;
+    }
+    &__content {
+      margin-left: 2rem;
+      text-align: justify;
+    }
+  }
+  .season-name {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $color-white;
+    border-radius: 4px;
+    position: relative !important;
+  
+    .horizental-divider {
+      position: absolute !important;
+      top: 4px;
+      left: 38px;
+      width: 12rem;
+  
+    }
+  }
+  
+  .your-comment {
+    & textarea {
+      background-color: rgba(rgba(136, 136, 136, 0.856), 0.3);
+      border: none;
+      border-radius: 7px;
+      padding: 1.5rem;
+  
+      &::-webkit-input-placeholder {
+        color: $color-grey-dark-4;
+        font-family: "Lato", sans-serif;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  
+  .comment-box {
+    width: 60rem;
+    border-radius: 5px;
+    background-color: rgba(rgba(136, 136, 136, 0.856), 0.3);
+    padding: 2rem 2rem 2rem 0;
+    margin-bottom: 1rem;
+  
+    .grey-text {
+      margin-left: 2rem;
+    }
+    &__show-more {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .btn {
+        font-size: 1.5rem;
+        background-color: transparent !important;
+      }
+    }
+  }
+  
+  .comment-owner {
+    &__message {
+      padding-left: 8rem;
+      padding-top: 1.5rem;
+    }
+    .avatar {
+      margin-left: 3rem;
+    }
+  }
+  
+  .comment-score {
+    padding-left: 1rem;
+    border-left: 1.5px solid $color-white;
+  }
+  
+  .horizental-divider {
+    display: block;
+    height: 10px;
+    border: 0;
+    margin: 1em 0;
+    padding: 0;
+  
+    &--white {
+    border-top: 1px solid $color-white;
+    }
+  
+    &--grey {
+    border-top: 1px solid $color-grey-dark-4;
+    }
+  }
+  
+  .vertical-divider {
+    border: 0;
+    height: 2.5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    &--white {
+    border-left: 1px solid $color-white;
+    }
+  
+    &--grey {
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    }
+  }
+  

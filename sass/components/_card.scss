@@ -1,0 +1,20 @@
+.card {
+  margin-left: 3rem;
+
+  &__episode {
+    & img {
+      width: 120px;
+      height: auto;
+    }
+  }
+
+  &__more-like {
+    & img {
+      width: 149px;
+      height: auto;
+    }
+    .grey-text {
+        font-size: 1.3rem;
+    }
+  }
+}
